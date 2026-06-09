@@ -5,13 +5,13 @@ body{
   align-items: center;
   height: 100vh;
   background:black;
-  font-family:Arial ,sans serif;
+  font-family:Arial ,san-serif;
 }
 .calculadora{
   background: white;
   padding: 30px;
   border-radius: 25px;
-  width:350px;
+  width:450px;
 }
 
 h1{
@@ -20,8 +20,8 @@ h1{
 
   #display{
   width:100%;
-  heigtht:60px;
-  font-size:30px;
+  height:80px;
+  font-size:40px;
   text-align:rigth;
   margin-bottom:20px;
   box-sizing:border-box;
@@ -36,8 +36,8 @@ h1{
 }
 
 button{
-  height: 70px;
-  font-size:28px;
+  height: 80px;
+   font-size:30px; */
   bordder-radius:10px
   cursor:pointer;
 }
