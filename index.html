@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +8,13 @@
 </head>
 <body>
  <div class="calculadora">
-     <input type="text" id=" resultado" readonly>
+     <h1>Calculadora</h1>
+     <input type="text" id="display" readonly>
      <div class="botoes">
          <button onclick="limpar()">C</button>
          <button onclick="adicionar('/')">/</button>
          <button onclick='adicionar('*)">*</button>
-         <button onclick ="apagar()">Apagar</button>
+         <button onclick ="apagar()">Del</button>
          <button onclick ="adicionar('7')">7</button>
          <button onclick="adicionar('8')">8</button>
          <button onclick="adicionar ("9")">9</button>
@@ -25,8 +26,9 @@
          <button onclick="adicionar('1')">1</button>
          <button onclick ="adicionar ('2')">2</button>
          <button onclick="adicionar('3')">3</button>
-         <button onclick ="calcular()">=</button>
-         <button onclick ="adicionar('0')">0</button>
+         <button class ="igual" onclick="calcular()">=</button>
+         <button class="zero"
+             onclick =adicionar('0')">0</button>
          <button onclick ="adicionar('.')">.</button>
      </div>
  </div>
