@@ -1,20 +1,19 @@
-let resultado=document.getElementById("resultado");
+const display=
+  document.getElementById("display");
 function adicionar(valor){
-  resultado.value+=valor;
+  display.value+=valor;
 }
 function limpar(){
-  resultado.value ="";
+  display.value ="";
 }
 function apagar (){
-  resultado.value=
-    resultado.value.slice(0, -1);
+  display.value= display.value.slice(0, -1);
 }
 function calcular(){
   try{
-    resultado.value=
-      eval(resultado.value);
-  } catch {
-    resultado.value="Erro";
+    display.value= eval(display.value);
+  }catch{
+    display.value="Erro";
   }
 }
 
